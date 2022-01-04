@@ -1,0 +1,230 @@
+[0.000000] (-) TimerEvent: {}
+[0.000480] (msgs_package) JobQueued: {'identifier': 'msgs_package', 'dependencies': OrderedDict()}
+[0.000736] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict([('msgs_package', '/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package')])}
+[0.001057] (msgs_package) JobStarted: {'identifier': 'msgs_package'}
+[0.030109] (msgs_package) JobProgress: {'identifier': 'msgs_package', 'progress': 'cmake'}
+[0.040681] (msgs_package) JobProgress: {'identifier': 'msgs_package', 'progress': 'build'}
+[0.042038] (msgs_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mpt/Desktop/assgn2/ros2_ws/build/msgs_package', '--', '-j4', '-l4'], 'cwd': '/home/mpt/Desktop/assgn2/ros2_ws/build/msgs_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mpt'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2569'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge/lib:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mpt'), ('OLDPWD', '/home/mpt/Desktop/assgn2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2263'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '30368'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install:/home/mpt/Desktop/assgn2/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mpt'), ('JOURNAL_STREAM', '8:106194'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'mpt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mpt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mpt:@/tmp/.ICE-unix/2629,unix/mpt:/tmp/.ICE-unix/2629'), ('INVOCATION_ID', 'feb7c01accfa46b190d0d2045844c0a2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge:/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bb6133f6-c8b6-4a03-a30b-2b61b922fa99'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpt/Desktop/assgn2/ros2_ws/build/msgs_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge/lib/python3.8/site-packages:/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package:/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description:/opt/ros/foxy')]), 'shell': False}
+[0.084085] (-) TimerEvent: {}
+[0.184565] (-) TimerEvent: {}
+[0.285788] (-) TimerEvent: {}
+[0.388101] (msgs_package) StdoutLine: {'line': b'[ 10%] Built target msgs_package__rosidl_generator_c\n'}
+[0.389284] (-) TimerEvent: {}
+[0.449531] (msgs_package) StdoutLine: {'line': b'[ 12%] Built target msgs_package__cpp\n'}
+[0.489602] (-) TimerEvent: {}
+[0.528856] (msgs_package) StdoutLine: {'line': b'[ 23%] Built target msgs_package__rosidl_typesupport_c\n'}
+[0.589645] (-) TimerEvent: {}
+[0.650167] (msgs_package) StdoutLine: {'line': b'[ 33%] Built target msgs_package__rosidl_typesupport_cpp\n'}
+[0.690048] (-) TimerEvent: {}
+[0.750880] (msgs_package) StdoutLine: {'line': b'[ 43%] Built target msgs_package__rosidl_typesupport_fastrtps_cpp\n'}
+[0.790131] (-) TimerEvent: {}
+[0.826749] (msgs_package) StdoutLine: {'line': b'[ 53%] Built target msgs_package__rosidl_typesupport_introspection_cpp\n'}
+[0.890225] (-) TimerEvent: {}
+[0.899657] (msgs_package) StdoutLine: {'line': b'[ 64%] Built target msgs_package__rosidl_typesupport_fastrtps_c\n'}
+[0.970775] (msgs_package) StdoutLine: {'line': b'[ 74%] Built target msgs_package__rosidl_typesupport_introspection_c\n'}
+[0.990507] (-) TimerEvent: {}
+[1.067727] (msgs_package) StdoutLine: {'line': b'[ 74%] Built target msgs_package\n'}
+[1.091117] (-) TimerEvent: {}
+[1.192480] (-) TimerEvent: {}
+[1.216165] (msgs_package) StdoutLine: {'line': b'[ 76%] Built target msgs_package__py\n'}
+[1.292573] (-) TimerEvent: {}
+[1.335670] (msgs_package) StdoutLine: {'line': b'[ 84%] Built target msgs_package__python\n'}
+[1.392786] (-) TimerEvent: {}
+[1.482325] (msgs_package) StdoutLine: {'line': b'[ 89%] Built target msgs_package__rosidl_typesupport_c__pyext\n'}
+[1.492957] (-) TimerEvent: {}
+[1.563255] (msgs_package) StdoutLine: {'line': b'[ 94%] Built target msgs_package__rosidl_typesupport_introspection_c__pyext\n'}
+[1.593091] (-) TimerEvent: {}
+[1.640019] (msgs_package) StdoutLine: {'line': b'[100%] Built target msgs_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.683292] (msgs_package) CommandEnded: {'returncode': 0}
+[1.697919] (-) TimerEvent: {}
+[1.800583] (-) TimerEvent: {}
+[1.904267] (-) TimerEvent: {}
+[1.967198] (msgs_package) JobProgress: {'identifier': 'msgs_package', 'progress': 'install'}
+[2.006683] (msgs_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mpt/Desktop/assgn2/ros2_ws/build/msgs_package'], 'cwd': '/home/mpt/Desktop/assgn2/ros2_ws/build/msgs_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mpt'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2569'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge/lib:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mpt'), ('OLDPWD', '/home/mpt/Desktop/assgn2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2263'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '30368'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install:/home/mpt/Desktop/assgn2/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mpt'), ('JOURNAL_STREAM', '8:106194'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'mpt'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/mpt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mpt:@/tmp/.ICE-unix/2629,unix/mpt:/tmp/.ICE-unix/2629'), ('INVOCATION_ID', 'feb7c01accfa46b190d0d2045844c0a2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge:/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:bb6133f6-c8b6-4a03-a30b-2b61b922fa99'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mpt/Desktop/assgn2/ros2_ws/build/msgs_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge/lib/python3.8/site-packages:/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package:/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description:/opt/ros/foxy')]), 'shell': False}
+[2.008386] (-) TimerEvent: {}
+[2.073665] (msgs_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.076008] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/ament_index/resource_index/rosidl_interfaces/msgs_package\n'}
+[2.076288] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package\n'}
+[2.076419] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/msg\n'}
+[2.076530] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.076639] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv\n'}
+[2.076748] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail\n'}
+[2.076861] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__type_support.h\n'}
+[2.076977] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__functions.c\n'}
+[2.077091] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__functions.h\n'}
+[2.077211] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__functions.c\n'}
+[2.078271] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__struct.h\n'}
+[2.078520] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__struct.h\n'}
+[2.078683] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__functions.h\n'}
+[2.078843] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__type_support.h\n'}
+[2.078996] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/bug_service.h\n'}
+[2.079364] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/random_position.h\n'}
+[2.079514] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/environment/library_path.sh\n'}
+[2.079685] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/environment/library_path.dsv\n'}
+[2.079821] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/libmsgs_package__rosidl_generator_c.so\n'}
+[2.080366] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package\n'}
+[2.080608] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/msg\n'}
+[2.080746] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.080868] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv\n'}
+[2.080978] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail\n'}
+[2.081086] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__rosidl_typesupport_fastrtps_c.h\n'}
+[2.081192] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__rosidl_typesupport_fastrtps_c.h\n'}
+[2.081299] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/libmsgs_package__rosidl_typesupport_fastrtps_c.so\n'}
+[2.081411] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package\n'}
+[2.081516] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/msg\n'}
+[2.081639] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.081747] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv\n'}
+[2.082455] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail\n'}
+[2.082792] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.082934] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/dds_fastrtps\n'}
+[2.083049] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.083159] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/libmsgs_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.083269] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package\n'}
+[2.083382] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/msg\n'}
+[2.083499] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.083685] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv\n'}
+[2.084177] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail\n'}
+[2.088296] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__rosidl_typesupport_introspection_c.h\n'}
+[2.089312] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__rosidl_typesupport_introspection_c.h\n'}
+[2.089549] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__type_support.c\n'}
+[2.089804] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__type_support.c\n'}
+[2.094268] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/libmsgs_package__rosidl_typesupport_introspection_c.so\n'}
+[2.094474] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/libmsgs_package__rosidl_typesupport_c.so\n'}
+[2.094604] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package\n'}
+[2.094781] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv\n'}
+[2.095155] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/bug_service.hpp\n'}
+[2.099327] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail\n'}
+[2.099495] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__builder.hpp\n'}
+[2.099614] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__builder.hpp\n'}
+[2.100534] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__traits.hpp\n'}
+[2.101512] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__traits.hpp\n'}
+[2.102112] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__struct.hpp\n'}
+[2.102711] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__struct.hpp\n'}
+[2.103456] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/random_position.hpp\n'}
+[2.115717] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package\n'}
+[2.115989] (-) TimerEvent: {}
+[2.118554] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv\n'}
+[2.120675] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail\n'}
+[2.120913] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.121064] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.121211] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/bug_service__type_support.cpp\n'}
+[2.121332] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/include/msgs_package/srv/detail/random_position__type_support.cpp\n'}
+[2.121446] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/libmsgs_package__rosidl_typesupport_introspection_cpp.so\n'}
+[2.121556] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/libmsgs_package__rosidl_typesupport_cpp.so\n'}
+[2.121664] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/environment/pythonpath.sh\n'}
+[2.121771] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/environment/pythonpath.dsv\n'}
+[2.121895] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/__init__.py\n'}
+[2.200078] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/srv\n'}
+[2.200510] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/srv/_random_position.py\n'}
+[2.200889] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/srv/_bug_service_s.c\n'}
+[2.201258] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/srv/_bug_service.py\n'}
+[2.201576] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/srv/_random_position_s.c\n'}
+[2.201929] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/srv/__init__.py\n'}
+[2.205564] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/msgs_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.205857] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/msgs_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.206062] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages/msgs_package/msgs_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.206979] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/libmsgs_package__python.so\n'}
+[2.207476] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/srv/RandomPosition.idl\n'}
+[2.208111] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/srv/BugService.idl\n'}
+[2.209002] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/srv/RandomPosition.srv\n'}
+[2.210430] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/srv/RandomPosition_Request.msg\n'}
+[2.210906] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/srv/RandomPosition_Response.msg\n'}
+[2.211151] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/srv/BugService.srv\n'}
+[2.211523] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/srv/BugService_Request.msg\n'}
+[2.211847] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/srv/BugService_Response.msg\n'}
+[2.212149] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/mapping.yaml\n'}
+[2.213213] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/ament_index/resource_index/package_run_dependencies/msgs_package\n'}
+[2.215285] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/ament_index/resource_index/parent_prefix_path/msgs_package\n'}
+[2.217939] (-) TimerEvent: {}
+[2.218385] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/environment/ament_prefix_path.sh\n'}
+[2.218852] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/environment/ament_prefix_path.dsv\n'}
+[2.222433] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/environment/path.sh\n'}
+[2.222926] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/environment/path.dsv\n'}
+[2.223439] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/local_setup.bash\n'}
+[2.223836] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/local_setup.sh\n'}
+[2.224133] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/local_setup.zsh\n'}
+[2.224404] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/local_setup.dsv\n'}
+[2.245338] (msgs_package) StdoutLine: {'line': b'-- Installing: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/package.dsv\n'}
+[2.246459] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/ament_index/resource_index/packages/msgs_package\n'}
+[2.246678] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_generator_cExport.cmake\n'}
+[2.246806] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.246928] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.247045] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.247159] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_typesupport_cExport.cmake\n'}
+[2.247275] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.247384] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_generator_cppExport.cmake\n'}
+[2.247512] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.247630] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.247744] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_typesupport_cppExport.cmake\n'}
+[2.247865] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.247979] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/rosidl_cmake-extras.cmake\n'}
+[2.248104] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.248218] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.248328] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.248438] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.248545] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.248653] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.248760] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_packageConfig.cmake\n'}
+[2.248868] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/cmake/msgs_packageConfig-version.cmake\n'}
+[2.248981] (msgs_package) StdoutLine: {'line': b'-- Up-to-date: /home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/share/msgs_package/package.xml\n'}
+[2.249087] (msgs_package) CommandEnded: {'returncode': 0}
+[2.318431] (-) TimerEvent: {}
+[2.419273] (-) TimerEvent: {}
+[2.520132] (-) TimerEvent: {}
+[2.621432] (-) TimerEvent: {}
+[2.722708] (-) TimerEvent: {}
+[2.799803] (msgs_package) JobEnded: {'identifier': 'msgs_package', 'rc': 0}
+[2.801262] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[2.823080] (-) TimerEvent: {}
+[2.923755] (-) TimerEvent: {}
+[3.024906] (-) TimerEvent: {}
+[3.126183] (-) TimerEvent: {}
+[3.226679] (-) TimerEvent: {}
+[3.327095] (-) TimerEvent: {}
+[3.428059] (-) TimerEvent: {}
+[3.528821] (-) TimerEvent: {}
+[3.629957] (-) TimerEvent: {}
+[3.730819] (-) TimerEvent: {}
+[3.831817] (-) TimerEvent: {}
+[3.912258] (robot_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_description', 'build', '--build-base', '/home/mpt/Desktop/assgn2/ros2_ws/build/robot_description/build', 'install', '--prefix', '/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description', '--record', '/home/mpt/Desktop/assgn2/ros2_ws/build/robot_description/install.log', '--single-version-externally-managed'], 'cwd': '/home/mpt/Desktop/assgn2/ros2_ws/src/robot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mpt', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '2569', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib:/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/mpt', 'OLDPWD': '/home/mpt/Desktop/assgn2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '2263', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '30368', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/mpt/Desktop/assgn2/ros1_bridge/install:/home/mpt/Desktop/assgn2/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'mpt', 'JOURNAL_STREAM': '8:106194', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'mpt', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/mpt/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/mpt:@/tmp/.ICE-unix/2629,unix/mpt:/tmp/.ICE-unix/2629', 'INVOCATION_ID': 'feb7c01accfa46b190d0d2045844c0a2', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge:/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:bb6133f6-c8b6-4a03-a30b-2b61b922fa99', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mpt/Desktop/assgn2/ros2_ws/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages:/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package/lib/python3.8/site-packages:/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge/lib/python3.8/site-packages:/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/mpt/Desktop/assgn2/ros2_ws/install/msgs_package:/home/mpt/Desktop/assgn2/ros1_bridge/install/ros1_bridge'}, 'shell': False}
+[3.931857] (-) TimerEvent: {}
+[4.033400] (-) TimerEvent: {}
+[4.133990] (-) TimerEvent: {}
+[4.234297] (-) TimerEvent: {}
+[4.334626] (-) TimerEvent: {}
+[4.435264] (-) TimerEvent: {}
+[4.536191] (-) TimerEvent: {}
+[4.637202] (-) TimerEvent: {}
+[4.737772] (-) TimerEvent: {}
+[4.839176] (-) TimerEvent: {}
+[4.940128] (-) TimerEvent: {}
+[4.957528] (robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[4.973330] (robot_description) StdoutLine: {'line': b'writing ../../build/robot_description/robot_description.egg-info/PKG-INFO\n'}
+[4.973597] (robot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt\n'}
+[4.973755] (robot_description) StdoutLine: {'line': b'writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt\n'}
+[4.973949] (robot_description) StdoutLine: {'line': b'writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt\n'}
+[4.974073] (robot_description) StdoutLine: {'line': b'writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt\n'}
+[5.040456] (-) TimerEvent: {}
+[5.056908] (robot_description) StdoutLine: {'line': b"reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[5.059962] (robot_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[5.061728] (robot_description) StdoutLine: {'line': b'running build\n'}
+[5.064360] (robot_description) StdoutLine: {'line': b'running build_py\n'}
+[5.066511] (robot_description) StdoutLine: {'line': b'copying robot_description/user_input.py -> /home/mpt/Desktop/assgn2/ros2_ws/build/robot_description/build/lib/robot_description\n'}
+[5.072411] (robot_description) StdoutLine: {'line': b'running install\n'}
+[5.077633] (robot_description) StdoutLine: {'line': b'running install_lib\n'}
+[5.077809] (robot_description) StdoutLine: {'line': b'copying /home/mpt/Desktop/assgn2/ros2_ws/build/robot_description/build/lib/robot_description/user_input.py -> /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description\n'}
+[5.081678] (robot_description) StdoutLine: {'line': b'byte-compiling /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description/user_input.py to user_input.cpython-38.pyc\n'}
+[5.081921] (robot_description) StdoutLine: {'line': b'running install_data\n'}
+[5.082031] (robot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.084510] (robot_description) StdoutLine: {'line': b"removing '/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.085586] (robot_description) StdoutLine: {'line': b'Copying ../../build/robot_description/robot_description.egg-info to /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info\n'}
+[5.098422] (robot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[5.142744] (-) TimerEvent: {}
+[5.166665] (robot_description) StdoutLine: {'line': b'Installing random_position_generator script to /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/robot_description\n'}
+[5.172572] (robot_description) StdoutLine: {'line': b'Installing user_input script to /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/robot_description\n'}
+[5.182134] (robot_description) StdoutLine: {'line': b"writing list of installed files to '/home/mpt/Desktop/assgn2/ros2_ws/build/robot_description/install.log'\n"}
+[5.243005] (-) TimerEvent: {}
+[5.311629] (robot_description) CommandEnded: {'returncode': 0}
+[5.344671] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[5.345309] (-) TimerEvent: {}
+[5.347436] (-) EventReactorShutdown: {}

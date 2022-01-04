@@ -1,0 +1,7 @@
+{
+  "package_name": "msgs_package",
+  "non_idl_tuples": [
+    "/home/mpt/Desktop/assgn2/ros2_ws/src/msgs_package:srv/RandomPosition.srv",
+    "/home/mpt/Desktop/assgn2/ros2_ws/src/msgs_package:srv/BugService.srv"
+  ]
+}

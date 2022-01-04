@@ -1,0 +1,5 @@
+  File "/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description/keyboard.py", line 41
+    resp.success =
+                 ^
+SyntaxError: invalid syntax
+

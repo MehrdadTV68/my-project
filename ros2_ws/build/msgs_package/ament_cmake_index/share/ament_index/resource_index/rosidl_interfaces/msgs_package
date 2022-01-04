@@ -1,0 +1,8 @@
+srv/BugService.idl
+srv/BugService.srv
+srv/BugService_Request.msg
+srv/BugService_Response.msg
+srv/RandomPosition.idl
+srv/RandomPosition.srv
+srv/RandomPosition_Request.msg
+srv/RandomPosition_Response.msg

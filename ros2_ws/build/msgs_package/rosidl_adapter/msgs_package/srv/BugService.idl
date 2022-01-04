@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msgs_package/srv/BugService.srv
+// generated code does not contain a copyright notice
+
+
+module msgs_package {
+  module srv {
+    struct BugService_Request {
+      boolean data;
+
+      double x;
+
+      double y;
+    };
+    struct BugService_Response {
+      boolean data;
+    };
+  };
+};

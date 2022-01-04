@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msgs_package/srv/RandomPosition.srv
+// generated code does not contain a copyright notice
+
+
+module msgs_package {
+  module srv {
+    struct RandomPosition_Request {
+      boolean request;
+    };
+    struct RandomPosition_Response {
+      double x;
+
+      double y;
+    };
+  };
+};

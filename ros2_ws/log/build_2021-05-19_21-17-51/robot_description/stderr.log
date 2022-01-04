@@ -1,0 +1,5 @@
+  File "/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description/user_input.py", line 34
+    self.get_logger().info('Bug_srv is not available, waiting again...'+str(counter+=1))
+                                                                                   ^
+SyntaxError: invalid syntax
+

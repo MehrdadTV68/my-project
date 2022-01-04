@@ -1,0 +1,5 @@
+[console_scripts]
+keyboard = robot_description.keyboard:main
+random_position_generator = robot_description.random_generator_service:main
+user_input = robot_description.user_input:main
+

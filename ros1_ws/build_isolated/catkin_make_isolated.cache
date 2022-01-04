@@ -1,0 +1,2 @@
+robot_description
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/mpt/Desktop/assgn2/ros1_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/mpt/Desktop/assgn2/ros1_ws/install_isolated

@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_description/user_input.py -> /home/mpt/Desktop/assgn2/ros2_ws/build/robot_description/build/lib/robot_description
+running install
+running install_lib
+copying /home/mpt/Desktop/assgn2/ros2_ws/build/robot_description/build/lib/robot_description/user_input.py -> /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description
+byte-compiling /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description/user_input.py to user_input.cpython-38.pyc
+  File "/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description/user_input.py", line 59
+    self.pos_request_message.request = data<
+                                           ^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/robot_description/robot_description.egg-info to /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info
+running install_scripts
+Installing keyboard script to /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/robot_description
+Installing random_position_generator script to /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/robot_description
+Installing user_input script to /home/mpt/Desktop/assgn2/ros2_ws/install/robot_description/lib/robot_description
+writing list of installed files to '/home/mpt/Desktop/assgn2/ros2_ws/build/robot_description/install.log'
